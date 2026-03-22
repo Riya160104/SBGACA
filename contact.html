@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - S B GUPTA AND ASSOCIATES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>S B GUPTA AND ASSOCIATES</h1>
+                <p><strong>Chartered Accountants</strong></p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">About Us <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="about.html">Our Firm</a>
+                        <a href="founder.html">Founder: Bishnu Gupta</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="services/audit.html">Audit & Assurance</a>
+                        <a href="services/direct-tax.html">Direct Tax</a>
+                        <a href="services/indirect-tax.html">Indirect Tax</a>
+                        <a href="services/rera.html">RERA Compliances</a>
+                        <a href="services/corporate-law.html">Corporate & Allied Law</a>
+                        <a href="services/other-services.html">Other Services</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact-hero">
+        <div class="contact-hero-overlay"></div>
+        <div class="contact-hero-content">
+            <h1>Let's Connect</h1>
+            <p>We're here to help you with all your financial needs</p>
+        </div>
+    </section>
+
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info-card">
+                    <div class="info-header">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Call Us</h3>
+                    </div>
+                    <p>+91 97403 90906</p>
+                    <p>Monday - Saturday, 9:00 AM - 10:00 PM</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="info-header">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                    </div>
+                    <p>bishnu@sarthiservices.in</p>
+                    <p>guptabishnu@gmail.com</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="info-header">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Visit Us</h3>
+                    </div>
+                    <p>107, Suprabhat Hillridge Residency,<br>Gottigere, Bangalore-560083</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <div class="form-left">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions about our services? Need expert advice? Fill out the form and our team will get back to you within 24 hours.</p>
+                    
+                    <div class="contact-features">
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Quick Response Time</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-user-tie"></i>
+                            <span>Expert Consultation</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <span>Free Initial Consultation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contactForm" action="https://formsubmit.co/bishnu@sarthiservices.in" method="POST" class="contact-form-card">
+                    <input type="hidden" name="_subject" value="New Inquiry - S B GUPTA AND ASSOCIATES">
+                    <input type="hidden" name="_cc" value="guptabishnu@gmail.com">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="service" name="service">
+                            <option value="">Select a Service</option>
+                            <option value="Audit & Assurance">Audit & Assurance</option>
+                            <option value="Direct Tax">Direct Tax</option>
+                            <option value="Indirect Tax">Indirect Tax</option>
+                            <option value="RERA Compliances">RERA Compliances</option>
+                            <option value="Corporate & Allied Law">Corporate & Allied Law</option>
+                            <option value="Other Services">Other Services</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your requirements..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-full">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <p class="form-note">We respect your privacy. Your information is safe with us.</p>
+                </form>
+            </div>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.893456789012!2d77.573456!3d12.876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15a1e2b12345%3A0x123456789abcdef!2sGottigere%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>S B GUPTA AND ASSOCIATES</h3>
+                <p>Chartered Accountants</p>
+                <p>High quality service with speed and smile</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/bishnu-gupta-418bb810/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="about.html">About Us</a>
+                <a href="founder.html">Founder</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="services/audit.html">Audit & Assurance</a>
+                <a href="services/direct-tax.html">Direct Tax</a>
+                <a href="services/indirect-tax.html">Indirect Tax</a>
+                <a href="services/rera.html">RERA Compliances</a>
+                <a href="services/corporate-law.html">Corporate & Allied Law</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 107, Suprabhat Hillridge Residency, Gottigere, Bangalore-560083</p>
+                <p><i class="fas fa-phone"></i> +91 97403 90906</p>
+                <p><i class="fas fa-envelope"></i> bishnu@sarthiservices.in</p>
+                <p><i class="fas fa-envelope"></i> guptabishnu@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© All Rights Reserved. 2026 | S B GUPTA AND ASSOCIATES</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
